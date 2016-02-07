@@ -73,101 +73,158 @@ td { vertical-align: top; }
 /* ===== Primary Styles ========================================================
    Author:
    ========================================================================== */
-html,body
+@font-face 
 {
-	height: 100%;
-	background-color: #9a0000;
+  font-family: Indira;
+  src: url('Indira_K.ttf');
+}
+
+html
+{
+    background: radial-gradient(transparent 66%, rgba(22,0,0,.5));
+    background-size: cover;
+    background-color: #990000;
+    background-attachment: fixed;
+}
+
+html, body
+{
+    height: 100%;
+    font-size: 100%;
 }
 
 header
-{		
-	min-height: 100px;
-	width: 100%;
-}
-
-#holder {
-	min-height: 100%;
-	position: relative;
-}
-
-#body 
 {
-	padding-bottom: 100px; /* adjust -- same to footer */
-	margin: auto;		
-	/*width: 1000px;*/
+    text-align: center;
+    height: 100%;
+    margin-top: 1em;
 }
 
-footer
+h1 
 {
-	bottom: 0;	
-	left: 0;
-	right: 0;
-	
-	height: 100px;
-	position: absolute;
-	
-	text-align: center;
-	font-size: 8pt;	
-	
-	background-color: #000;	
-	
-	/*width: 100%;	
-	max-height: 20%;*/
-}   
+    color: #000;
+    font-family: Indira, Georgia, times, serif;
+    font-size: 1em;
+    margin-top: .4em;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    text-shadow: 
+    0 0.01em 0.04em rgba(0, 0, 0, 1), 
+    0 0 0.5em rgba(0, 0, 0, 0.2), 
+    0 0.01em 0.1em #660000,
+    0.01em 0.01em 0.01em #000;
+}
 
-#social
+#black-ring
 {
-	position:relative;	
-	margin: auto;
-	padding-top: 10px;
+    width: 33%;
 }
-nav 
+
+img.fit
 {
-   
-	font-family: sans-serif;
-	font-size: 26pt;
-	word-spacing:60px;
-	text-align: center;
-	padding: 10px;
-	text-shadow: 0 0.01em 0.05em #000000
+    width: 66%;
+    max-width: 800px;
 }
 
-nav ul
-{	
-
-	margin: auto;
-}
-
-nav li
+section 
 {
-	display: inline;
+    position: relative;
+    background-color: #020202;
+    padding: 2.22em;
 }
 
-img.frontpage
+section.full
 {
-	display: block;
-	margin: auto;
+    min-height: 100%;
 }
 
-#o
+#about {
+    padding: 5em;
+    /*text-align: center;*/
+}
+
+#about h1 {
+    color: #900000;
+    text-align: center;
+    font-size: 3em;
+}
+
+#about p {
+    margin-top: 0;
+    font-size: 2em;
+    color: #504040;
+    display: inline-block;
+    width: 50%;
+    text-align: justify;
+}
+
+#media {
+    background-color: #900000;
+}
+
+.table { display: table; }
+.column { display: table-cell; }
+
+#album {
+  font-family: times, serif;
+  font-weight: bold;
+}
+
+#album div.cover {
+    display: table-cell; 
+    vertical-align: middle; 
+    width: 33%;
+    padding-right: 5em;
+}
+
+#album div.stores {
+    display: table-cell; 
+    vertical-align: middle; 
+    width: 33%;
+    padding-right: 5em;
+}
+
+#album div.tracklist {
+  display: table-cell; 
+  vertical-align: top;
+    padding-right: 5em;
+}
+
+#album h1
 {
-	width: 33%;
-	max-width: 400px;
+    font-size: 2em;
+    color: #9A0000;
+    margin-top: 0;
+    text-transform: uppercase;
+    text-shadow: 
+    0 0.01em 0.04em rgba(0, 0, 0, 1), 
+    0 0 0.5em rgba(0, 0, 0, 0.2), 
+    0.01em 0.01em 0.01em #000;
 }
 
-#logo
-{
-	width: 90%;
-	max-width: 586px;
+#album h2 {
+  font-size: 1.33em;
+  color: #7A0303;
 }
 
+#album ol {
+  font-size: 1.2em;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer img {
+  height: 3.33em;
+}
 
 /* =============================================================================
    Media Queries
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-	/* Style adjustments for viewports that meet the condition */
+    /* Style adjustments for viewports that meet the condition */
 }
 
 /* =============================================================================
