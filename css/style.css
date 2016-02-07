@@ -131,6 +131,7 @@ section
     position: relative;
     background-color: #020202;
     padding: 2.22em;
+    padding-bottom: .33em;
 }
 
 section.full
