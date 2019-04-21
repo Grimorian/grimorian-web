@@ -456,13 +456,11 @@ section.full {
 }
 
 #footer a {
-  color: #6A0000;
+  color: #3A0000;
 }
 
 #footer img {
     height: 3.33em;
-    
-    padding: .33em;
     padding-right: 1.33em;
 }
 

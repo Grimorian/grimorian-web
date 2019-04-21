@@ -1,0 +1,16 @@
+<style>
+* {
+background:black; color:red
+}
+
+h1{ font-size: 6.66em }
+h2{ font-size: 2.666em; color:brown}
+</style>
+<h1><!--#echo var="REDIRECT_STATUS" --></h1>
+<h2><!--#echo var="HTTP_HOST" --><!--#echo var="REQUEST_URI" --></h2>
+
+
+<!-- 
+         <small>Grumi not working</small>
+                                                                                                                                                                                                                                                                                                                                                                                      
+--> 
