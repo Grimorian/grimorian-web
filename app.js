@@ -5,4 +5,8 @@ serveStatic = require('serve-static'),
 serve = serveStatic('./'),
 server = http.createServer((req, res) => serve(req, res, finalhandler(req, res)))
 
-server.listen(80)
+try {
+    server.listen(80)
+} catch(e) {
+    console.error(e)
+}
