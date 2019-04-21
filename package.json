@@ -1,0 +1,22 @@
+{
+  "name": "grimorian-web",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grimorian/grimorian-web.git"
+  },
+  "author": "Grimorian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grimorian/grimorian-web/issues"
+  },
+  "homepage": "https://github.com/Grimorian/grimorian-web#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
