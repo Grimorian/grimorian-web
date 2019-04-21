@@ -2,9 +2,8 @@
   "name": "grimorian-web",
   "version": "1.0.0",
   "description": "Website",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,9 +15,5 @@
   "bugs": {
     "url": "https://github.com/Grimorian/grimorian-web/issues"
   },
-  "homepage": "https://github.com/Grimorian/grimorian-web#readme",
-  "dependencies": {
-    "finalhandler": "^1.1.1",
-    "serve-static": "^1.13.2"
-  }
+  "homepage": "https://github.com/Grimorian/grimorian-web#readme"
 }
