@@ -2,8 +2,9 @@
   "name": "grimorian-web",
   "version": "1.0.0",
   "description": "Website",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Grimorian/grimorian-web/issues"
   },
-  "homepage": "https://github.com/Grimorian/grimorian-web#readme"
+  "homepage": "https://github.com/Grimorian/grimorian-web#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
