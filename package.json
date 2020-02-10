@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Grimorian/grimorian-web#readme",
   "dependencies": {
-    "httpster": "^1.0.4"
+    "httpster": "1.0.0"
   }
 }
