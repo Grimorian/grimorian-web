@@ -1,1 +1,1 @@
-web: httpster . -p 80
+web: httpster . -p $PORT
