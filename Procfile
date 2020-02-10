@@ -1,0 +1,1 @@
+web: ./node_modules/httpster/bin/httpster . -p 80
